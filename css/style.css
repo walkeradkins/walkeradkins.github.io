@@ -7,9 +7,45 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *
 * ======================================================= */
+
+.__portrait {
+  height: 10em;
+  border-radius: .5em;
+}
+
+.feature__icon {
+  text-align: center;
+  width: 1.28em;
+  height: 1.28em;
+  background: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #DD356E !important;
+  font-size: 4em;
+  margin: .25em;
+}
+
+.feature__icon-js {
+  width: 1.45em;
+  height: 1.45em;
+  font-size: 3.5em;
+}
+
+.icons__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10em;
+}
+
 body {
   font-family: "Inconsolata", Arial, sans-serif;
   font-weight: 400;
