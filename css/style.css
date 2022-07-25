@@ -14,12 +14,22 @@
 .__portrait {
   height: 10em;
   border-radius: .5em;
+  margin-bottom: 1em;
+}
+
+.skills__header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+  font-size: 35px;
+  font-weight: 400;
+
 }
 
 .feature__icon {
   text-align: center;
-  width: 1.28em;
-  height: 1.28em;
+  min-width: 1.28em;
+  min-height: 1.28em;
   background: #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -34,16 +44,17 @@
 }
 
 .feature__icon-js {
-  width: 1.45em;
-  height: 1.45em;
+  min-width: 1.45em;
+  min-height: 1.45em;
   font-size: 3.5em;
 }
 
 .icons__container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
-  height: 10em;
+  min-height: 10em;
 }
 
 body {
